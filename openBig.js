@@ -14,11 +14,14 @@
 
     // Your code here...
     setTimeout(function() {
-               // 展开评论的所有回复
+               //自动触发最大化事件
                $('.ic.reader-fullScreen.xllDownloadLayerHit_left.top-right-fullScreen').click();
+               // 展开完整的文档
                $('.down-arrow.goBtn').click();
             }, 100);
+    //移除广告
     $(".bg-opacity").remove();
+    //移除广告
     $(".fix-searchbar-wrap").remove();
     $("###doc_bottom_wrap.hidden-doc-banner.complex.doc-bottom-wrap.\31 2");
     //$("#doc_buttom_wrap.19.doc-bottom-wrap.complex.hidden-doc-banner")
